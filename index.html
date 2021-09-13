@@ -51,8 +51,8 @@
 		c1.onmousedown = function(ev){
 		c1.onmousemove = function(e){
 			console.log(e);
-			var w = 50;			// 清除筆刷的寬度
-			var h = 50;			// 清除筆刷的高度
+			var w = 80;			// 清除筆刷的寬度
+			var h = 80;			// 清除筆刷的高度
 			var x = e.pageX-c1.offsetLeft - w/2;    // 清除筆刷的x位置
 			var y = e.pageY-c1.offsetTop - h/2;		// 清除筆刷的y位置
 			ctx1.clearRect(x,y,w,h);
